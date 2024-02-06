@@ -493,7 +493,8 @@
       <h1>Reverse Address Resolution Protocol (RARP)</h1>
       <!-- Heading element -->
       <button class="btn btn-warning btn-sm" onclick="openPdfPPT()">About RARP</button>
-      &ensp;&ensp;<button class="btn btn-primary btn-sm" onclick="openPdfDocs()">How To Use RARP</button>
+      &ensp;&ensp;<button class="btn btn-primary btn-sm" onclick="openPdfDocs()">How To Use RARP Document</button>
+      &ensp;&ensp;<button class="btn btn-danger btn-sm" onclick="openVideo()">How To Use RARP Video</button>
 
 
 
@@ -722,7 +723,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Windows OS Laptop PC-1</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Windows OS PC-1</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
@@ -741,7 +742,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Windows OS Laptop PC-2</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Windows OS PC-2</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
@@ -759,7 +760,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Windows OS Laptop PC-3</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Windows OS PC-3</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
@@ -1655,7 +1656,11 @@
 
 
 
+    function openVideo() {
+      var link = 'https://www.youtube.com/watch?v=yHBWKUb03B8';
+      window.open(link, '_blank'); // '_blank' opens the link in a new tab
 
+    }
 
 
     function openPdfPPT() {
