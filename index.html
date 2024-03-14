@@ -473,7 +473,23 @@
         transform: translateY(-100%) translateX(-600%);
       }
     }
+
+
+    /* Define animation */
+    @keyframes colorChange {
+        0% { color: #64002a; }
+        50% { color: #e12e79; }
+        100% { color: #64002a; }
+    }
+
+    /* Apply animation to the span */
+    h1 span:hover {
+        animation: colorChange 5s infinite;
+    }
   </style>
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -486,15 +502,39 @@
   <!-- Container div -->
   <div>
 
+    <div>
+      <a href="https://sritikamanjrekar.github.io/ARNetExperince/">
+        <img src="logo.png" alt="ARNetExperince" style="width: 12%;margin-left: 2%;"></a>
+      <div style="margin-left: 86%;margin-top: -3%;">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://sritikamanjrekar.github.io/RARP/" target="_blank"><i
+            class="ri-facebook-fill btn btn-outline-primary" style="border-radius: 50%;"></i></a>
+        <a href="https://twitter.com/intent/tweet?url=https://sritikamanjrekar.github.io/RARP/&text=Check%20out%20this%20awesome%20website!"
+          target="_blank"><i class="ri-twitter-fill  btn btn-outline-success"
+            style="border-radius: 50%;margin-left: 3%;"></i></a>
+        <a href="https://www.linkedin.com/shareArticle?url=https://sritikamanjrekar.github.io/RARP/" target="_blank"><i
+            class="ri-linkedin-fill btn btn-outline-info" style="border-radius: 50%;margin-left: 3%;"></i></a>
+        <a href="" target="_blank"><i class="ri-instagram-line btn btn-outline-danger"
+            style="border-radius: 50%;margin-left: 3%;"></i></a>
+  
+      </div>
+
     <!-- Center-aligned content using the deprecated <center> tag -->
     <center>
 
       <!-- Heading element with text "File Transfer Protocols" -->
-      <h1>Reverse Address Resolution Protocol (RARP)</h1>
+      <h1 style="margin-top: -2%;font-weight: bold; letter-spacing: 0.06em;">
+        <span style="color: #64002a;">Reverse Address Resolution Protocol (RARP)</span>
+    </h1>
+    
+    
+      
+      
+      
+      
       <!-- Heading element -->
-      <button class="btn btn-warning btn-sm" onclick="openPdfPPT()">About RARP</button>
-      &ensp;&ensp;<button class="btn btn-primary btn-sm" onclick="openPdfDocs()">How To Use RARP Document</button>
-      &ensp;&ensp;<button class="btn btn-danger btn-sm" onclick="openVideo()">How To Use RARP Video</button>
+      <button class="btn btn-outline-success btn-sm" onclick="openPdfPPT()">About RARP</button>
+      &ensp;&ensp;<button class="btn btn-outline-primary btn-sm" onclick="openPdfDocs()">How To Use RARP Document</button>
+      &ensp;&ensp;<button class="btn btn-outline-danger btn-sm" onclick="openVideo()">How To Use RARP Video</button>
 
 
 
@@ -506,14 +546,12 @@
   </div>
   <!-- End of container div -->
 
-  <hr> <!-- Horizontal rule element -->
+  <!-- <hr> Horizontal rule element` -->
+  <br>
+  <br>
+  <br>
 
-
-
-
-
-
-
+  <div style="background-color:rgb(254, 176, 194);border-radius: 2%;margin: 0.3%;margin-top: -3.3%;">
 
 
   <div class="model-viewer-container">
